@@ -14,7 +14,7 @@ body {
 /* ==========bat======== */
 .projectOneBg {
   background-color: #191919;
-  height: 240px;
+  height: 250px;
   width: 350px;
   display: flex;
   align-items: center;
@@ -138,7 +138,7 @@ body {
   border-radius: 50%;
   border: 20px solid #2a3d81;
   position: absolute;
-  left: 45%;
+  right: 45%;
 }
 .rightCircle {
   height: 122px;
@@ -146,11 +146,11 @@ body {
   border-radius: 50%;
   border: 20px solid #2a3d81;
   position: absolute;
-  right: 45%;
+  left: 45%;
 }
 .topCircle {
-  height: 125px;
-  width: 125px;
+  height: 122px;
+  width: 122px;
   border-radius: 50%;
   border: 20px solid #2a3d81;
   position: absolute;
