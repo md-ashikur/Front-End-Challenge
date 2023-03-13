@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* ==========bat======== */
+.projectOneBg {
+  background-color: #191919;
+  height: 240px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.batPosition {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  width: 200px;
+  position: relative;
+}
+.batHead {
+  position: absolute;
+  top: -5px;
+  left: 75px;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 66px;
+  z-index: 10;
+  background-color: #191919;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.leftEar {
+  height: 9px;
+  width: 9px;
+  background-color: #ecaa53;
+  border-radius: 50%;
+  position: absolute;
+  top: 19px;
+  left: 19px;
+}
+.rightEar {
+  height: 9px;
+  width: 9px;
+  background-color: #ecaa53;
+  border-radius: 50%;
+  position: absolute;
+  top: 19px;
+  right: 19px;
+}
+
+.head {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  top: 24px;
+  background-color: #ecaa53;
+  border-radius: 2px;
+}
+.wing {
+  background-color: #ecaa53;
+  height: 75px;
+  width: 200px;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+.leftWingCircle {
+  height: 85px;
+  width: 75px;
+  background-color: #191919;
+  border-radius: 50%;
+  position: absolute;
+  left: -36px;
+}
+.leftWingCircleTwo {
+  height: 100px;
+  width: 120px;
+  background-color: #191919;
+  border-radius: 50%;
+  position: absolute;
+  left: -5px;
+  top: 50px;
+}
+
+.rightWingCircle {
+  height: 85px;
+  width: 75px;
+  background-color: #191919;
+  border-radius: 50%;
+  position: absolute;
+  right: -36px;
+}
+.rightWingCircleTwo {
+  height: 100px;
+  width: 120px;
+  background-color: #191919;
+  border-radius: 50%;
+  position: absolute;
+  right: -5px;
+  top: 50px;
+}
+
+/* ============Project 2====Flower Circle======= */
+
+.projectTwoBg {
+  background-color: #2a3d81;
+  height: 250px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.mainCircle {
+  height: 164px;
+  width: 164px;
+  background-color: #6c93cc;
+  border-radius: 50%;
+  position: relative;
+  border: 16px solid #6c93cc;
+}
+.leftCircle {
+  height: 122px;
+  width: 122px;
+  border-radius: 50%;
+  border: 20px solid #2a3d81;
+  position: absolute;
+  left: 45%;
+}
+.rightCircle {
+  height: 122px;
+  width: 122px;
+  border-radius: 50%;
+  border: 20px solid #2a3d81;
+  position: absolute;
+  right: 45%;
+}
+.topCircle {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 20px solid #2a3d81;
+  position: absolute;
+  bottom: 45%;
+}
+.bottomCircle {
+  height: 122px;
+  width: 122px;
+  border-radius: 50%;
+  border: 20px solid #2a3d81;
+  position: absolute;
+  top: 45%;
+}
+/* ==================== */
+@media only screen and (max-width: 600px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .projectOneBg {
+    margin: 20px;
+  }
+  .projectTwoBg {
+    margin: 20px;
+  }
+}
